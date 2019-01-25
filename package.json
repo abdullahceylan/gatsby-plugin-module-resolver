@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-module-resolver",
   "description": "Module resolver plugin for Gatsby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "homepage": "https://github.com/abdullahceylan/gatsby-plugin-module-resolver",
@@ -25,7 +25,7 @@
     "require",
     "import"
   ],
-  "main": "src/gatsby-node.js",
+  "main": "index.js",
   "scripts": {
     "dev": "concurrently \"yarn run watch:prettier\" \"yarn run watch:build\" --kill-others",
     "build": "babel src --out-dir .",
