@@ -2,6 +2,9 @@
 logs
 *.log
 
+# Assets
+/assets
+
 # Runtime data
 pids
 *.pid
