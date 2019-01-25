@@ -1,5 +1,7 @@
 # gatsby-plugin-module-resolver
 
+[![NPM](https://img.shields.io/npm/v/gatsby-plugin-module-resolver.svg?colorB=brightgreen)](https://www.npmjs.com/package/gatsby-plugin-module-resolver) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 Custom module resolver plugin for Gatsby
 
 This plugin allows you to add new "root" directory that contain your files almost the same as [babel-plugin-module-resolver](https://www.npmjs.com/package/babel-plugin-module-resolver) but for [Gatsby](https://gatsbyjs.org).
