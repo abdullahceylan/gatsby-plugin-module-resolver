@@ -59,7 +59,7 @@ module.exports = {
 
 This means you should be able to import modules like such:
 
-![Code sample](assets/code-1.png)
+![Code sample](https://raw.githubusercontent.com/abdullahceylan/gatsby-plugin-module-resolver/master/assets/code-1.png)
 
 It's great, isn't it?
 
@@ -76,4 +76,4 @@ A map of alias.
 
 # License
 
-MIT, see [LICENSE.md](LICENSE.md) for details.
+MIT, see [LICENSE.md](https://raw.githubusercontent.com/abdullahceylan/gatsby-plugin-module-resolver/master/LICENSE) for details.
