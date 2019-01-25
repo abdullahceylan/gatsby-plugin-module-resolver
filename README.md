@@ -74,4 +74,4 @@ A map of alias.
 
 # License
 
-MIT, see [LICENSE.md](/LICENSE.md) for details.
+MIT, see [LICENSE.md](LICENSE.md) for details.
