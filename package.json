@@ -1,7 +1,7 @@
 {
   "name": "gatsby-plugin-module-resolver",
   "description": "Module resolver plugin for Gatsby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Abdullah Ceylan <ben@abdullahceylan.com>",
   "homepage": "https://github.com/abdullahceylan/gatsby-plugin-module-resolver",
