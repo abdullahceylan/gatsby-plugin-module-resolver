@@ -47,9 +47,13 @@ module.exports = {
       resolve: 'gatsby-plugin-module-resolver',
       options: {
         root: './src', // <- will be used as a root dir
-        alias: {
+        aliases: {
           '@components': './components', // <- will become ./src/components
           helpers: './helpers', // <- will become ./src/helpers
+          static: {
+            root: './public', // <- will used as this alias' root dir
+            alias: './static' // <- will become ./public/static
+          }
         }
       }
     }
@@ -71,8 +75,23 @@ A string of the root directory. Specify the path (eg. `./src`)
 
 ## alias
 
-A map of alias.
+A map of alias. Aliases' values could be a string or an object. If you want to use a different root directory for an alias rather than main `root` then you need to specify an object like:
 
+```javascript
+{
+  root: './src',
+  aliases: {
+    ...
+    static: {
+      root: './public', // <- will used as this alias' root dir
+      alias: './static' // <- will become ./public/static
+    },
+    ...
+  }
+}
+```
+
+In this example, Gatsby is going to use `/public` directory as `static` alias' root directory rather than `/src`.
 
 # License
 
