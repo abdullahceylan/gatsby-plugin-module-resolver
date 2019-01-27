@@ -96,3 +96,7 @@ In this example, Gatsby is going to use `/public` directory as `static` alias' r
 # License
 
 MIT, see [LICENSE.md](https://raw.githubusercontent.com/abdullahceylan/gatsby-plugin-module-resolver/master/LICENSE) for details.
+
+# Changelog
+
+See [LICENSE.md](https://raw.githubusercontent.com/abdullahceylan/gatsby-plugin-module-resolver/master/CHANGELOG) for details.
