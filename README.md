@@ -1,6 +1,7 @@
 # gatsby-plugin-module-resolver
 
 [![NPM](https://img.shields.io/npm/v/gatsby-plugin-module-resolver.svg?colorB=brightgreen)](https://www.npmjs.com/package/gatsby-plugin-module-resolver) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/dw/gatsby-plugin-module-resolver.svg?colorB=brightgreen)](https://www.npmjs.com/package/gatsby-plugin-module-resolver) 
 
 Custom module resolver plugin for Gatsby
 
